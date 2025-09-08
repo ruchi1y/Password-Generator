@@ -32,3 +32,5 @@ cargo build --release
 # Run (example with length 16)
 ./target/release/password-generator 16
 ```
+## License 📝
+Copyright © 2024 [ruchi1y](https://github.com/ruchi1y). This project is [MIT](LICENSE) licensed.
