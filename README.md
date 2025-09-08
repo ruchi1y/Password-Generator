@@ -12,8 +12,23 @@ This tool allows you to generate strong, customizable passwords for everyday use
 - Fast and lightweight (built in Rust 🚀).
 
 - CLI-based and easy to use.
-## Build
+
+## Installation 📦
+```bash
+# Install Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Clone repository
+git clone https://github.com/ruchi1y/Password-Generator
+
+# Build
+cd Password-Generator && cargo build --release
+```
+## Usage 🖥️
+```bash
+# Build
 cargo build --release  
 
-## Run (example with length N)
-./target/release/password-generator N
+# Run (example with length 16)
+./target/release/password-generator 16
+```
